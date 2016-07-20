@@ -1,9 +1,6 @@
-# ![logo](docs/images/logo.jpg).js
+# ![logo](docs/images/logo.jpg).seed
 
-Leaf.seed is a starter kit for creating Leaf.js websites.
-
-* [Developers Guides](docs/guides.md)
-* [API Reference](docs/api.md)
+Leaf.seed is a starter kit for creating [Leaf.js](https://github.com/leaf-web/leaf.js) websites.
 
 ## Building Leaf.js
 
