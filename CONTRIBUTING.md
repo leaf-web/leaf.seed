@@ -35,4 +35,3 @@ If you have an idea for a new feature or a suggestion how to improve an existing
 Before submitting a pull request, please make sure the following is done…
 
 1. Fork the repo and create your branch from `master`.
-2. If you've changed guides, update the [API Documentation](docs/api.md)
