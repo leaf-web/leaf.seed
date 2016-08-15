@@ -1,6 +1,7 @@
 # Development files
 tests/
 node_modules/
+.sass-cache/
 
 # Windows image file caches
 Thumbs.db
