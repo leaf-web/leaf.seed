@@ -3,7 +3,7 @@
 Leaf.seed is a starter kit for creating [Leaf.js](https://github.com/leaf-web/leaf.js) websites.
 
 * [Contributing] (CONTRIBUTING.md)
-* [Glitter](https://gitter.im/leaf-js/lobby)
+* [Gitter](https://gitter.im/leaf-js/lobby)
 
 ## Building Leaf.js
 
