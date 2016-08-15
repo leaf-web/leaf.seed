@@ -1,0 +1,49 @@
+/**
+ * TODO
+ *
+ * Replace these rules with your own.
+ */
+
+/* ==========================================================================
+   #MODULES
+   ========================================================================== */
+/* 
+   #list-inline
+   ========================================================================== */
+
+/**
+ * The list-inline object creates inline lists.
+ *
+ * Usage:
+ *
+ * <ul class="o-list-inline">
+ *     <li></li>
+ *     <li></li>
+ *     <li></li>
+ * </ul>
+ */
+.o-list-inline {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+	.o-list-inline > li {
+		 display: inline;
+	}
+
+/* ==========================================================================
+   #COMPONENTS
+   ========================================================================== */
+
+/* 
+   #main-list-inline
+   ========================================================================== */
+
+.c-main-list-inline {
+	margin-bottom: 1.5rem;
+}
+
+	.c-main-list-inline > li:not(:first-child) {
+		padding-left: .375rem;
+	}

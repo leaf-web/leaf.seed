@@ -18,18 +18,22 @@ module.exports = function (grunt) {
                 dest: 'app/build/app.min.js'
             }
         },
-        cssmin: {
-            css: {
-                src: 'app/styles/app.css',
-                dest: 'app/build/app.min.css'
-            }
-   		}
+        sass: {
+	        options: {
+	            style: 'compressed'
+	        },
+	        dist: {
+	            files: {
+	                'app/build/app.min.css': 'app/styles/app.scss'
+	            }
+	        }
+	    }   		
     });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-sass');
 
-    grunt.registerTask('default', ['concat', 'jshint', 'uglify', 'cssmin']);
+    grunt.registerTask('default', ['concat', 'jshint', 'uglify', 'sass']);
 }
