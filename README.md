@@ -9,11 +9,11 @@ Leaf.seed is a starter kit for creating [Leaf.js](https://github.com/leaf-web/le
 
 Install using Bower:
 
-	$ bower install --save Leaf.seed
+	$ bower install --save leaf.seed
 
 Install using Npm:
 
-	$ npm install --save Leaf.seed
+	$ npm install --save leaf.seed
 
 ## Building Leaf.js
 
