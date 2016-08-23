@@ -1,4 +1,4 @@
-# 1.0.3  (8/19/2016)
+# 1.0.3  (8/23/2016)
 
 * Fixed: Bower package and Npm package capitalization was inconsistant. Republished.
 
