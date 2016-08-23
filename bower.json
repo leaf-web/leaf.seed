@@ -1,0 +1,23 @@
+{
+  "name": "leaf.seed",
+  "license": "MIT",
+  "homepage": "https://github.com/leaf-web/leaf.js",
+  "authors": [
+    "leaf.git@gmail.com"
+  ],
+  "description": "Leaf.seed is a starter kit for creating Leaf.js websites.",
+  "main": "app/index.html",
+  "keywords": [
+    "JavaScript",
+    "MVC",
+    "MV*",
+    "Leaf.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
