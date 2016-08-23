@@ -1,4 +1,4 @@
-# ![logo](docs/images/logo.jpg).seed
+# ![logo](https://github.com/leaf-web/leaf.seed/raw/master/docs/images/logo.jpg).seed
 
 Leaf.seed is a starter kit for creating [Leaf.js](https://github.com/leaf-web/leaf.js) websites.
 
@@ -9,11 +9,11 @@ Leaf.seed is a starter kit for creating [Leaf.js](https://github.com/leaf-web/le
 
 Install using Bower:
 
-	$ bower install --save leaf.seed
+	$ bower install --save Leaf.seed
 
 Install using Npm:
 
-	$ npm install --save leaf.seed
+	$ npm install --save Leaf.seed
 
 ## Building Leaf.js
 

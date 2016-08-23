@@ -1,0 +1,94 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'unpublish',
+1 verbose cli   'Leaf.js',
+1 verbose cli   '--force' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 warn using --force I sure hope you know what you are doing.
+5 silly unpublish args[0] Leaf.js
+6 silly unpublish thing { raw: 'Leaf.js',
+6 silly unpublish   scope: null,
+6 silly unpublish   name: 'Leaf.js',
+6 silly unpublish   rawSpec: '',
+6 silly unpublish   spec: '*',
+6 silly unpublish   type: 'range' }
+7 verbose getPublishConfig null
+8 silly ls normalized Leaf.js
+9 silly gentlyRm C:\Users\HARMS\AppData\Roaming\npm-cache\Leaf.js is being purged
+10 verbose gentlyRm don't care about contents; nuking C:\Users\HARMS\AppData\Roaming\npm-cache\Leaf.js
+11 silly vacuum-fs purging C:\Users\HARMS\AppData\Roaming\npm-cache\Leaf.js
+12 silly vacuum-fs quitting because other entries in C:\Users\HARMS\AppData\Roaming\npm-cache
+13 silly mapToRegistry name Leaf.js
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/Leaf.js
+17 verbose get GET as part of write; not caching result
+18 verbose request uri https://registry.npmjs.org/Leaf.js?write=true
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 2:23:37 PM
+21 verbose request using bearer token for auth
+22 verbose request id cf35202fc5d46281
+23 http request GET https://registry.npmjs.org/Leaf.js?write=true
+24 http 200 https://registry.npmjs.org/Leaf.js?write=true
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"BFMCYV3W9ERYRGJY96HHLC5Y6"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=0',
+25 silly get     'transfer-encoding': 'chunked',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Tue, 23 Aug 2016 19:23:37 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-ord1722-ORD',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1471980217.667147,VS0,VE97',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving Leaf.js to C:\Users\HARMS\AppData\Roaming\npm-cache\registry.npmjs.org\Leaf.js_3Fwrite_3Dtrue\.cache.json
+27 info unpublish No version specified, removing all
+28 verbose request uri https://registry.npmjs.org/Leaf.js/-rev/4-00f3c06dab97d1de04f96030d9614e1f
+29 verbose request sending authorization for write operation
+30 info attempt registry request try #1 at 2:23:37 PM
+31 verbose request using bearer token for auth
+32 http request DELETE https://registry.npmjs.org/Leaf.js/-rev/4-00f3c06dab97d1de04f96030d9614e1f
+33 http 400 https://registry.npmjs.org/Leaf.js/-rev/4-00f3c06dab97d1de04f96030d9614e1f
+34 verbose headers { 'content-type': 'application/json',
+34 verbose headers   'cache-control': 'max-age=300',
+34 verbose headers   'content-length': '17',
+34 verbose headers   'accept-ranges': 'bytes',
+34 verbose headers   date: 'Tue, 23 Aug 2016 19:23:38 GMT',
+34 verbose headers   via: '1.1 varnish',
+34 verbose headers   connection: 'keep-alive',
+34 verbose headers   'x-served-by': 'cache-ord1724-ORD',
+34 verbose headers   'x-cache': 'MISS',
+34 verbose headers   'x-cache-hits': '0',
+34 verbose headers   'x-timer': 'S1471980217.820013,VS0,VE709',
+34 verbose headers   vary: 'Accept-Encoding' }
+35 verbose request invalidating C:\Users\HARMS\AppData\Roaming\npm-cache\registry.npmjs.org\Leaf.js on DELETE
+36 verbose stack Error: Registry returned 400 for DELETE on https://registry.npmjs.org/Leaf.js/-rev/4-00f3c06dab97d1de04f96030d9614e1f
+36 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:239:14)
+36 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
+36 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:354:22)
+36 verbose stack     at Request.emit (events.js:110:17)
+36 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1207:14)
+36 verbose stack     at Request.emit (events.js:129:20)
+36 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1153:12)
+36 verbose stack     at IncomingMessage.emit (events.js:129:20)
+36 verbose stack     at _stream_readable.js:908:16
+36 verbose stack     at process._tickCallback (node.js:355:11)
+37 verbose statusCode 400
+38 verbose pkgid Leaf.js
+39 verbose cwd C:\Users\HARMS\Documents\GitHub\leaf.seed
+40 error Windows_NT 6.1.7601
+41 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "unpublish" "Leaf.js" "--force"
+42 error node v0.12.7
+43 error npm  v2.11.3
+44 error code E400
+45 error Registry returned 400 for DELETE on https://registry.npmjs.org/Leaf.js/-rev/4-00f3c06dab97d1de04f96030d9614e1f
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
