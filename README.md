@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/leaf-web/leaf.seed.svg?branch=master)](https://travis-ci.org/leaf-web/leaf.seed)
+
 # Leaf.seed
 
 Leaf.seed is a starter kit for creating [Leaf.js](https://github.com/leaf-web/leaf.js) websites.
