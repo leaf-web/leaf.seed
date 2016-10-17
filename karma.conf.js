@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Tue Oct 11 2016 17:13:26 GMT-0500 (Central Daylight Time)
+// Generated on Mon Oct 17 2016 11:20:38 GMT-0500 (Central Daylight Time)
 
 module.exports = function(config) {
   config.set({
@@ -15,7 +15,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-		'app/scripts/leaf.min.js',
+		'https://rawgit.com/leaf-web/leaf.js/1.0.9/builds/leaf.min.js',
 		'app/build/app.full.js',
 		'tests/app.js'
     ],
@@ -39,7 +39,7 @@ module.exports = function(config) {
 
 
     // web server port
-	port: 9876,
+    port: 9876,
 
 
     // enable / disable colors in the output (reporters and logs)
@@ -66,6 +66,7 @@ module.exports = function(config) {
 	browserDisconnectTimeout : 10000,
 	browserDisconnectTolerance : 1,
 	browserNoActivityTimeout : 60000,//by default 10000
+
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
