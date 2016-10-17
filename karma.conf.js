@@ -15,7 +15,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-		'https://rawgit.com/leaf-web/leaf.js/1.0.9/builds/leaf.min.js',
+		'app/scripts/leaf.min.js',
 		'app/build/app.full.js',
 		'tests/app.js'
     ],
