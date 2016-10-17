@@ -1,5 +1,7 @@
 # 1.0.4 (10/17/2016)
 
+* Added: Build badge
+* Added: MIT badge
 * Added: App tests
 * Updated: Uses Leaf.js 1.0.10
 * Fixed: Leaf.js should read Leaf.seed in README.md
