@@ -1,7 +1,8 @@
-# 1.0.4 (9/22/2016)
+# 1.0.4 (10/17/2016)
 
 * Added: App tests
 * Updated: Uses Leaf.js 1.0.10
+* Fixed: Leaf.js should read Leaf.seed in README.md
 
 # 1.0.3 (9/22/2016)
 

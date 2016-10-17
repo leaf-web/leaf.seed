@@ -7,7 +7,7 @@ Leaf.seed is a starter kit for creating [Leaf.js](https://github.com/leaf-web/le
 * [Contribution Guidelines](https://github.com/leaf-web/leaf.seed/blob/master/CONTRIBUTING.md)
 * [Gitter](https://gitter.im/leaf-js/lobby)
 
-## Installing Leaf.js
+## Installing Leaf.seed
 
 Install using Bower:
 
@@ -17,7 +17,7 @@ Install using Npm:
 
 	$ npm install --save leaf.seed
 
-## Building Leaf.js
+## Building Leaf.seed
 
 Once you have setup your environment, run:
 
