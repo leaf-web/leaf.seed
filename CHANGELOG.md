@@ -1,3 +1,9 @@
+# 1.0.5 (10/17/2016)
+
+* Added: David badge
+* Updated: Gruntfile.js has separate task for testing through Karma
+* Updated: Cleaned up package.json devDependencies
+
 # 1.0.4 (10/17/2016)
 
 * Added: Build badge

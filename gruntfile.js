@@ -27,13 +27,20 @@ module.exports = function (grunt) {
 	                'app/build/app.min.css': 'app/styles/app.scss'
 	            }
 	        }
-	    }   		
+	    },
+        karma: {
+            unit: {
+                configFile: 'karma.conf.js'
+            }
+        }	       		
     });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-karma');
 
-    grunt.registerTask('default', ['concat', 'jshint', 'uglify', 'sass']);
+	grunt.registerTask('default', ['concat', 'jshint', 'uglify', 'sass']);
+    grunt.registerTask('test', ['concat', 'jshint', 'uglify', 'sass', 'karma']);
 }

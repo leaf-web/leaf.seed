@@ -1,5 +1,8 @@
 [![Build Status](https://travis-ci.org/leaf-web/leaf.seed.svg?branch=master)](https://travis-ci.org/leaf-web/leaf.seed)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/leaf-web/leaf.seed/master/LICENSE)
+[![David](https://david-dm.org/leaf-web/leaf.seed.svg)](https://david-dm.org/)
+
+https://david-dm.org/leaf-web/leaf.seed.svg
 
 # Leaf.seed
 
