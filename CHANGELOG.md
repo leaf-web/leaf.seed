@@ -1,14 +1,10 @@
-# 1.0.5 (10/17/2016)
-
-* Updated: Gruntfile.js has separate task for testing through Karma
-* Updated: Cleaned up package.json devDependencies
-
 # 1.0.4 (10/17/2016)
 
 * Added: Build badge
 * Added: MIT badge
 * Added: App tests
 * Updated: Uses Leaf.js 1.0.10
+* Updated: Gruntfile.js has separate task for testing through Karma
 * Fixed: Leaf.js should read Leaf.seed in README.md
 
 # 1.0.3 (9/22/2016)
