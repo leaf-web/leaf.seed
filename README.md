@@ -1,4 +1,4 @@
-# ![logo](https://github.com/leaf-web/leaf.seed/raw/master/docs/images/logo.jpg).seed
+# Leaf.seed
 
 Leaf.seed is a starter kit for creating [Leaf.js](https://github.com/leaf-web/leaf.js) websites.
 

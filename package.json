@@ -1,7 +1,7 @@
 {
   "name": "leaf.seed",
   "description": "leaf.seed is a starter kit for creating leaf.js websites.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Eric Harms",
   "repository": {},
   "devDependencies": {
@@ -10,7 +10,11 @@
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-uglify": "~0.11.0",  
     "grunt-contrib-sass": "~1.0.0",
-    "http-server": "~0.6.1"
+    "http-server": "~0.6.1",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2"
   },
   "scripts": {
     "start": "http-server ./app -a localhost -p 8000 -c-1"
