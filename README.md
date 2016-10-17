@@ -2,8 +2,6 @@
 [![David](https://david-dm.org/leaf-web/leaf.seed.svg)](https://david-dm.org/)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/leaf-web/leaf.seed/master/LICENSE)
 
-https://david-dm.org/leaf-web/leaf.seed.svg
-
 # Leaf.seed
 
 Leaf.seed is a starter kit for creating [Leaf.js](https://github.com/leaf-web/leaf.js) websites.
