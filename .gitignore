@@ -1,5 +1,4 @@
 # Development files
-tests/
 node_modules/
 .sass-cache/
 
