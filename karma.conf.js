@@ -17,7 +17,7 @@ module.exports = function(config) {
     files: [
 		'https://rawgit.com/leaf-web/leaf.js/1.0.9/builds/leaf.min.js',
 		'app/build/app.full.js',
-		'tests/app.js',
+		'tests/app.js'
     ],
 
 
